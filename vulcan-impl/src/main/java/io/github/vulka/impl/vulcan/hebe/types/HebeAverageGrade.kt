@@ -18,7 +18,7 @@ data class HebeAverageGrade(
     val average: String?,
     @SerialName("Points")
     @Contextual
-    val points: Any?,  // Consider using a more specific type here if possible.
+    val points: JsonElement?,
     @SerialName("Scope")
     val scope: String
 )
